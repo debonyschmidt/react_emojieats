@@ -12,7 +12,7 @@ const MenuItem = ({ emoji, name, description, price, updateOrder }) => {
       <div className='menuitem__column'> 
         <div className='menuitem__name'>{name}</div>
         <div className='menuitem__description'>{description}</div>
-        <button className='menuitem__button' onclick={handleclick}>Add to order</button>
+        <button className='menuitem__button' onClick={handleclick}>Add to order</button>
       </div>
 
       <div className='menuitem__price'>
@@ -22,7 +22,5 @@ const MenuItem = ({ emoji, name, description, price, updateOrder }) => {
     </div>
   )
 }
-
-
 
 export default MenuItem;
